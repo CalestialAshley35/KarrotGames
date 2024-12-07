@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KarrotGames</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>KarrotGames</h1>
+    <h3>Upload and Name Your Image</h3>
+    <form id="uploadForm">
+      <input type="file" id="imageUpload" accept="image/*" required>
+      <input type="text" id="imageName" placeholder="Enter image name" required>
+      <button type="submit">Upload</button>
+    </form>
+
+    <div id="successMessage"></div>
+
+    <div class="image-preview" id="imagePreview"></div>
+
+    <div>
+      <h3>Kerry Custom Programming Interface</h3>
+      <textarea id="kerryCode" placeholder="Write your Kerry code here..."></textarea>
+      <button id="runCode">Run Code</button>
+      <div id="codeOutput"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
